@@ -1,0 +1,100 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+ body {
+     font-family: "Montserrat", sans-serif;
+}
+ a {
+     text-decoration: none;
+}
+ .menu {
+     height: 79vh;
+     background-color: #e8e8e8;
+}
+ .main-menu {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 40px 0;
+}
+ .menu-heading {
+     background: linear-gradient(to bottom right, rgb(255, 102, 0) 0%,rgb(255, 166, 0) 100%);
+     opacity: .9;
+     width: 100%;
+     margin: 20px 60px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 10px;
+     font-size: 1.2em;
+     color: #000000;
+     box-shadow: 1px 1px 1px #595959;
+}
+ .menu-logo {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+}
+ .menu-display {
+     width: 100%;
+     color: #595959;
+     display: flex;
+     overflow-x: auto;
+}
+ .small-info {
+     font-size: .9em;
+}
+ .menu-item {
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+     width: 40%;
+     margin: 1.33%;
+}
+ .menu-item .item-info {
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 20px;
+     font-size: .8em;
+     border-bottom: 2px solid #a8a8a8;
+     padding-bottom: 6px;
+}
+ .menu-item .item-info p:nth-child(2) {
+     font-weight: 500;
+     letter-spacing: .2px;
+     font-size: .8em;
+     font-style: italic;
+     margin-right: 20px;
+}
+ .menu-item .item-info .item-name {
+     text-transform: uppercase;
+     font-weight: 700;
+     text-transform: italic;
+     margin-bottom: 4px;
+     letter-spacing: .2px;
+}
+ .menu-item .item-info .item-description {
+     font-size: .9em;
+     color: #595959;
+}
+ .steak-price {
+     display: flex;
+}
+ .steak-price p:nth-child(1), .steak-price p:nth-child(2), .steak-price p:nth-child(3) {
+     font-weight: 500;
+     letter-spacing: .2px;
+     font-size: .8em;
+     font-style: italic;
+     margin-right: 20px;
+}
+
+
+.menu-hover:hover {
+     color: rgb(255, 102, 0);
+     transform: scale(1.1);
+}
+
+.menu-hover {
+     transition: all 0.4s ease-in-out;
+}
